@@ -1,0 +1,45 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Ottoman Strikes Back"
+run/main_scene="res://Main.tscn"
+config/features=PackedStringArray("4.4", "Mobile")
+config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=1920
+window/size/mode=3
+window/size/borderless=true
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[rendering]
+
+renderer/rendering_method="mobile"
+
+[xogot]
+
+project/editorState=[{
+"column": 0,
+"current": true,
+"line": 751,
+"path": "res://control.gd",
+"type": "file"
+}, {
+"column": 0,
+"line": 0,
+"path": "res://main.gd",
+"type": "file"
+}]
+project/breakpoints={}
+project/xogot_game_id="1870_ottoman-strikes-back"
